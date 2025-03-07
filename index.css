@@ -103,7 +103,7 @@ p{
 }
 .cards{
     width: 100%;
-    padding: 30px;
+    padding: 35px;
     background-color: #054866;
 }
 .allcard1{
@@ -142,4 +142,100 @@ color: white;
     justify-content: space-evenly;
     background-color: #033348 !important;
 background-image: none;
+}
+.side i{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .main-container{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .img img{
+        width: 40px;
+    }
+    nav{
+        width: 100%;
+    /* padding: 30px 10x !important; */
+    }
+    .text1 h1 {
+        font-size: 7px;
+        max-width: 100%;
+        text-wrap: nowrap;
+    }
+    .text1{
+        margin-left: 10px;
+    }
+    .text2 p{
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .text1
+    
+    h1 b {
+        font-size: 20px;
+    }
+    a{
+        display: none;
+    }
+    .side i{
+        display: block;
+    }
+    .set2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .text2{
+        width: 100%;
+    }
+    .text2 h1{
+        max-width: 100%;
+        font-size: 30px;
+    }
+    .image2{
+        width: 100%;
+    }
+    .image2 img{
+        width: 100%;
+    }
+    .cards{
+        width: 100%;
+    }
+    .allcard1{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+
+    }
+    .set3 h1{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    #card1{
+margin-bottom: 20px;
+        width: 100%;
+    }
+    #card1 img{
+        width: 70%;
+    }
+    #card1 p{
+        font-size: 10px;
+    }
+    #card1 button img{
+width: 13px;
+    }
+    #card1 button{
+        font-size: 13px;
+    }
+    .allcard2{
+        flex-direction: column;
+    }
+    
+
+    
 }
