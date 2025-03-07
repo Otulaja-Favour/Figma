@@ -152,6 +152,9 @@ background-image: none;
 .set4{
     padding: 10px 20px;
 }
+.set4 h1{
+    text-align: center;
+}
 
 
 
@@ -184,6 +187,7 @@ background-image: none;
     .set4{
         padding: none;
     }
+    
     .text1
     
     h1 b {
