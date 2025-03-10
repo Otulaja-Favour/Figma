@@ -8,7 +8,6 @@
 
 .main-container {
     width: 100%;
-    border: 1px solid;
     font-family: Montserrat;
     background-image: url(/img/circle.png);
     background-repeat: no-repeat;
@@ -239,6 +238,10 @@ p {
 hr {
     margin: 0 20px;
 }
+.dropdown{
+    display: none;
+}
+
 
 
 
@@ -264,6 +267,49 @@ hr {
         font-size: 7px;
         max-width: 100%;
         text-wrap: nowrap;
+    }
+
+    .dropdown{
+        display: block;
+        width: 100%;
+    }
+    .dropdown button{
+        background-image: none;
+        background-color: transparent;
+    }
+    .dropdown button i{
+        background-color: black;
+    }
+    .element a{
+    display: block;
+    padding-bottom: 5px;
+    color: black !important;
+    }
+    .element a:hover{
+    color: #24617D !important;
+        border: 0;
+    }
+    .element{
+        position: absolute;
+        background-color:white;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        width: 40%;
+        z-index: 1;
+        float: left;
+        display: none;
+    }
+    .element button{
+        background-color:none ;
+    color: black !important;
+    padding: 0%;
+    }
+    .dropdown:hover .element{
+        display: block;
+        float: left;
+        right: 4px;
+        /* top: 2px; */
+overflow: hidden;
+
     }
 
     .text1 {
