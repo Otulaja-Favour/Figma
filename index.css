@@ -10,6 +10,8 @@
     width: 100%;
     border: 1px solid;
     font-family: Montserrat;
+    background-image: url(/img/circle.png);
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -26,6 +28,7 @@ nav {
     flex-direction: row;
     align-items: center;
     color: #225677;
+    
 }
 
 .img {
@@ -35,6 +38,7 @@ nav {
 
 .img img {
     width: 100%;
+    mix-blend-mode: darken;
 }
 
 .text1 {
@@ -68,72 +72,87 @@ button {
     color: white;
     background-image: linear-gradient(#24617D, #4A7C97);
 }
-.set2{
+
+.set2 {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
 }
-.text2{
+
+.text2 {
     padding: 30px;
     width: 50%;
 }
-.text2 button{
+
+.text2 button {
     font-weight: 500;
 }
-.text2 h1{
+
+.text2 h1 {
     max-width: 100%;
     font-size: 50px;
 }
-.image2{
+
+.image2 {
     width: 50%;
 }
-p{
+
+p {
     line-height: 30px !important;
 }
-.image2 img{
+
+.image2 img {
     width: 100%;
 }
-.set3{
+
+.set3 {
     width: 100%;
     margin-bottom: 10px;
 
 }
-.set3 h1{
+
+.set3 h1 {
     text-align: center;
 }
-.cards{
+
+.cards {
     width: 100%;
     padding: 35px;
     background-color: #054866;
 
 }
-.allcard1{
+
+.allcard1 {
     width: 100%;
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-margin-bottom: 30px;
-}
-.allcard2{
     display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.allcard2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
 }
-#card1{
+
+#card1 {
     border: 1px solid #37434C;
     border-radius: 10px;
     width: 27%;
     padding: 30px;
-    background-image: linear-gradient(#084C6A,#457893);
-color: white;
+    background-image: linear-gradient(#084C6A, #457893);
+    color: white;
 }
-#card1 p{
+
+#card1 p {
     max-width: 100%;
 }
-#card1 button{
+
+#card1 button {
     width: 100%;
     padding: 20px auto;
     border-radius: 5px;
@@ -144,111 +163,240 @@ color: white;
     align-items: center;
     justify-content: space-evenly;
     background-color: #033348 !important;
-background-image: none;
+    background-image: none;
 }
-.side i{
+
+.side i {
     display: none;
 }
-.set4{
+
+.set4 {
     padding: 10px 20px;
 }
-.set4 h1{
+
+.set4 h1 {
     text-align: center;
 }
 
+.footer {
+    background-image: linear-gradient(#24617D, #4A7C97);
+    text-align: justify;
+    color: white;
+    width: 100%;
+}
+
+.un {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+
+}
+#pp{
+    background-color: white;
+    color: #24617D;
+font-weight: bold;
+}
+
+#fo1 #ff {
+    display: flex;
+    justify-content: none;
+    text-align: justify;
+    border: 1px solid;
+}
+
+#fo1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+
+.footer a {
+    display: block;
+    color: white !important;
+    font-weight: normal;
+    padding: 7px 0;
+}
+
+.pag {
+    font-size: 20px;
+    width: 15%;
+}
+
+.locate p {
+    max-width: 70%;
+    width: 100%;
+}
+
+
+#pill {
+    text-align: center;
+    font-size: 9px;
+}
+
+hr {
+    margin: 0 20px;
+}
 
 
 
 
-@media screen and (max-width:800px) {
-    .main-container{
+
+@media screen and (max-width:1000px) {
+    .main-container {
         width: 100%;
         padding: 20px 10px;
     }
-    .img img{
+
+    .img img {
         width: 40px;
     }
-    nav{
+
+    nav {
         width: 100%;
-    /* padding: 30px 10x !important; */
+        /* padding: 30px 10x !important; */
     }
+
     .text1 h1 {
         font-size: 7px;
         max-width: 100%;
         text-wrap: nowrap;
     }
-    .text1{
+
+    .text1 {
         margin-left: 10px;
     }
-    .text2 p{
+
+    .text2 p {
         max-width: 100%;
         font-size: 14px;
     }
-    .set4{
+
+    .set4 {
         padding: none;
     }
-    
-    .text1
-    
-    h1 b {
+
+    .text1 h1 b {
         font-size: 20px;
     }
-    a{
+
+    a {
         display: none;
     }
-    .side i{
-        display: block;
+
+    .side i {
+        display: block ;
     }
-    .set2{
+    .side{
+        width: 10%;
+        height: 70%;
+    }
+
+    .set2 {
         width: 100%;
         flex-direction: column;
     }
-    .text2{
+
+    .text2 {
         width: 100%;
     }
-    .text2 h1{
+
+    .text2 h1 {
         max-width: 100%;
         font-size: 30px;
     }
-    .image2{
+
+    .image2 {
         width: 100%;
     }
-    .image2 img{
+
+    .image2 img {
         width: 100%;
     }
-    .cards{
+
+    .cards {
         width: 100%;
     }
-    .allcard1{
+
+    .allcard1 {
         flex-direction: column;
         width: 100%;
         margin: 0;
 
     }
-    .set3 h1{
+
+    .set3 h1 {
         margin-bottom: 10px;
         font-size: 20px;
     }
-    #card1{
-margin-bottom: 20px;
+
+    #card1 {
+        margin-bottom: 20px;
         width: 100%;
     }
-    #card1 img{
+
+    #card1 img {
         width: 70%;
     }
-    #card1 p{
+
+    #card1 p {
         font-size: 10px;
     }
-    #card1 button img{
-width: 13px;
+
+    #card1 button img {
+        width: 13px;
     }
-    #card1 button{
+
+    #card1 button {
         font-size: 13px;
     }
-    .allcard2{
+
+    .allcard2 {
         flex-direction: column;
     }
-    
 
-    
+    .icon {
+        display: block;
+    }
+
+
+
+
+    .footer {
+        width: 100%;
+        padding: 70px 0;
+        margin: 20px 0;
+        text-align: center ;
+    }
+
+    .un {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .pag {
+        width: 100%;
+        text-wrap: nowrap;
+        padding: 1px 0;
+        margin: 5px 0;
+        font-family: 14px;
+    }
+
+    .locate {
+        width: 100%;
+        /* border: 1px solid; */
+        margin: 5px 0;
+    }
+    .locate p{
+        font-size: 10px;
+        max-width: 100%;
+    }
+    .footer a{
+        font-size: 12px;
+
+    }
+
+
 }
